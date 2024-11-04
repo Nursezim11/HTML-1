@@ -1,0 +1,73 @@
+body {
+    font-family: Arial,  sans-serif; /* Семейство шрифтов */
+    font-size: 11px; /* Размер основного шрифта в <p></p>  */
+    background-color: #f7f7f7; /* Цвет фона веб-страницы */
+    color: #060427; /* Цвет основного текста */ 
+}
+h1 {
+    color: #0c4f8f; /* Цвет заголовка */
+    font-size: 24px; /* Размер шрифта в пунктах */
+    font-family: Georgia, serif; /* Семейство шрифтов */
+}
+
+h2 {
+    color: #6592cc; /* Цвет заголовка */
+    font-size: 22px; /* Размер шрифта в пунктах */
+    font-family: Georgia, serif; /* Семейство шрифтов */
+}
+
+h3 {
+    color: #6592cc; /* Цвет заголовка */
+    font-size: 22px; /* Размер шрифта в пунктах */
+    font-family: Georgia, serif; /* Семейство шрифтов */
+}
+
+p {
+    color: #041327; /* Цвет заголовка */
+    font-size: 15px; /* Размер шрифта в пунктах */
+    font-family: Georgia, serif; /* Семейство шрифтов */
+}
+
+ul {
+    color: #041327; /* Цвет заголовка */
+    font-size: 15px; /* Размер шрифта в пунктах */
+    font-family: Georgia, serif; /* Семейство шрифтов */
+}
+
+h4 {
+    color: #6592cc; /* Цвет заголовка */
+    font-size: 22px; /* Размер шрифта в пунктах */
+    font-family: Georgia, serif; /* Семейство шрифтов */
+}
+
+h5 {
+    color: #b6039e; /* Цвет заголовка */
+    font-size: 22px; /* Размер шрифта в пунктах */
+    font-family: Georgia, serif; /* Семейство шрифтов */
+}
+
+
+
+@keyframes color-change {
+    0% {
+      color: blue;
+    }
+  
+    50% {
+      color: red;
+    }
+  
+    100% {
+      color: blue;
+    }
+}
+
+
+
+h1:hover {
+    animation: color-change 5s infinite;
+}
+
+
+
+
